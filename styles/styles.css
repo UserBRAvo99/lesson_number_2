@@ -1,7 +1,7 @@
 /* Основні кольори - 
 Основний фон #FFFFFF
 Фон #2F303A
-Фон секцій #F5F4FA
+Фон секцій/кнопок - другорядний  #F5F4FA
 Акцент #2196F3
 Текст другорядний #757575
 Текст білий #FFFFFF;
@@ -46,8 +46,8 @@ body {
 /* Блок навігації */
 /* Лого */
 .header_logo {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family:'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -59,8 +59,6 @@ body {
 }
 /* Список навігації */
 .header_link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -72,8 +70,6 @@ body {
 }
 /* Контакти в шапці */
 .contacts_link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -89,8 +85,6 @@ body {
     background-color: var(--second-primary-background);
 }
 .hero_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -100,8 +94,6 @@ body {
     color: var(--primary-background-color);
 }
 .hero_button {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.84;
@@ -111,11 +103,11 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-text-white);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
+
 /* Блок - Наші особливості */
 .features_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -124,9 +116,6 @@ body {
     color: var(--primary-text-black);
 }
 .features_description {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -134,8 +123,6 @@ body {
 }
 /* Блок справ */
 .case_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -156,8 +143,6 @@ body {
     height: 260px;
 }
 .team_title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -166,14 +151,11 @@ body {
     color: var(--primary-text-black);
 }
 .team_position {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-     color: var(--second-text-gray);
+    color: var(--second-text-gray);
 }
 /* Футер для сторінок Студія та Прортфоліо */
 /* footer - Підвал веб-сайту */
@@ -182,34 +164,63 @@ body {
 }
 /* Лого */
 .footer_logo {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family:'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-     color: var(--primary-text-white);
+    color: var(--primary-text-white);
 }
 .footer_logo_firstp {
     color: var(--accent-color);
 }
 /* Адреса */
 .address_map {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primary-text-white);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-white);
 }
 .address_link {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-gray-alfa-chenel);
 }
 /* ____ПОРТФОЛІО____ */
+/* Блок фільтер */
+.filter_button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-black);
+    background-color: var(--background-section-color);
+}
+.filter_button:hover, .filter_button:focus, .filter_button:active {
+    color: var(--primary-text-white);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+/* Блок галереї */
+.gallery_img {
+    width: 370px;
+    height: 294px;
+}
+.gallery_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-black);
+}
+.gallery_title_description {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
