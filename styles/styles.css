@@ -3,9 +3,10 @@
 Фон #2F303A
 Фон секцій/кнопок - другорядний  #F5F4FA
 Акцент #2196F3
-Текст другорядний #757575
+Другорядний фон #757575
 Текст білий #FFFFFF;
 Текст чорний #212121
+Текст сірий #212121
 Текст адреси rgba(255, 255, 255, 0.6); */
 /* font-family: 'Raleway',
 sans-serif;
@@ -19,6 +20,7 @@ sans-serif; */
     --primary-background-color: #FFFFFF;
     --second-primary-background: #2F303A;
     --background-section-color: #F5F4FA;
+    --background-color: #757575;
     --accent-color: #2196F3;
     --primary-text-white: #FFFFFF;
     --primary-text-black: #212121;
