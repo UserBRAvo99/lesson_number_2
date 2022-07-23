@@ -136,7 +136,8 @@ body {
     line-height: 1.71;
 }
 /* Блок справ */
-.case_title {
+/* Поєднані стилі для двух заголовків блоків case & team  */
+.case_title, .team_first_title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -146,6 +147,9 @@ body {
 /* Блок - наша команда */
 .team {
     background-color: var(--background-section-color);
+} 
+.team_item {
+    background-color: var(--primary-background-color);
 }
 .team_title {
     font-weight: 500;
@@ -186,6 +190,9 @@ body {
     font-style: normal;
     line-height: 1.71;
     color: var(--second-text-gray-alfa-chenel);
+}
+.address_map:hover, .address_map:focus, .address_link:hover, .address_link:focus {
+    color: var(--accent-color);
 }
 /* ____ПОРТФОЛІО____ */
 /* Блок фільтер */
